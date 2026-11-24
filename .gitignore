@@ -1,0 +1,74 @@
+# =============================================================
+# .gitignore de GreenCell (Python 3, VS Code, Windows + Ubuntu)
+# =============================================================
+
+# --- Python: fitxers generats per l'intèrpret ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entorns virtuals i variables d'entorn ---
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# --- Proves i cobertura (pytest / unittest / coverage) ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.hypothesis/
+
+# --- Empaquetat ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Eines d'anàlisi de codi ---
+.mypy_cache/
+.ruff_cache/
+
+# --- Sortides generades pel programa (informes, resultats) ---
+# Ajusta el nom si la carpeta de sortida es diu d'una altra manera.
+output/
+outputs/
+*.log
+
+# --- Bases de dades generades en local ---
+# Aquí només s'ignora la BD generada.
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# --- VS Code (configuració personal de cada màquina) ---
+.vscode/
+tempCodeRunnerFile.py
+
+# --- Sistema operatiu: Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Sistema operatiu: Linux / Ubuntu ---
+*~
+.directory
+.Trash-*
+.fuse_hidden*
+.nfs*
+
+# --- Sistema operatiu: macOS (per si algú altre obre el repo) ---
+.DS_Store
+
+# --- Fitxers temporals i còpies de seguretat ---
+*.tmp
+*.bak
+*.swp
