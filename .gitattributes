@@ -1,0 +1,21 @@
+# Git detecta sol quins fitxers són de text i normalitza els finals de línia
+* text=auto
+
+# Codi i dades: sempre LF, també a Windows
+*.py   text eol=lf
+*.md   text eol=lf
+*.csv  text eol=lf
+*.json text eol=lf
+*.txt  text eol=lf
+*.sh   text eol=lf
+
+# Scripts de Windows: CRLF
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+# Binaris: git no els toca
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.zip  binary
