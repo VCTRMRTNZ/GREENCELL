@@ -1,6 +1,6 @@
 # GREENCELL - Projecte final FES
 
-AUTOR: VÍCTOR MARTÍNEZ - Fonament d'Enginyeria del Software - UAB 26/27
+AUTORS: VÍCTOR MARTÍNEZ & KEVIN MONTECINOS - Fonament d'Enginyeria del Software - UAB 26/27
 
 ---
 
